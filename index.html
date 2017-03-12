@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Multiple File Uploader</title>
+</head>
+<body>
+	<div>
+		<form action="lib/upload.php" method="post" enctype="multipart/form-data" id="frmUpload">
+			<p>
+				<label for="files">Files: </label>
+				<input type="File" name="file[]" id="files" multiple required />
+			</p>
+			<p>
+				<label for="files">percentage: </label>
+				<span class="pr">0%</span>
+			</p>
+			<p>
+				<input type="submit" name="upload" class="btnUpload">
+			</p>
+		</form>
+	</div>
+	<div>
+		<pre id="result"></pre>
+	</div>
+	<script type="text/javascript" src="js/uploader.js"></script>
+</body>
+</html>
