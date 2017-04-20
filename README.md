@@ -1,6 +1,6 @@
 # MultipleFileUploader
 
-## a fileupload for uploading multiple file using xhr(XMLHttpRequest) & FormData
+## A Fileuploader for uploading multiple file using xhr(XMLHttpRequest) & FormData
 
 _MultipleFileUploader_ is a simple demonstration of using the upload event of xhr object to calculate the progress and uploading more then one file at once without reloading the page like we see in many mejor websites. you can see a simple example below or in code
 
